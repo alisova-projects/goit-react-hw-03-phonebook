@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Section from './Section';
 import Form from './Form/Form';
-import contactsData from './contactsData/contacts.json';
+import contactsData from '../contacts.json';
 import Filter from './Filter/Filter';
 import ContactList from './ContactList/ContactList';
 import s from './Form/Form.module.css';

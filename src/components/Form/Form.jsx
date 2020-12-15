@@ -31,6 +31,7 @@ class Form extends Component {
             type="text"
             name="name"
             value={name}
+            placeholder="Enter name"
             onChange={this.handleChange}
             autoComplete="off"
           />
@@ -42,6 +43,7 @@ class Form extends Component {
             type="text"
             name="number"
             value={number}
+            placeholder="Enter phone number"
             onChange={this.handleChange}
             autoComplete="off"
           />
